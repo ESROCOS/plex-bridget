@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- created with Phobos 0.7 -->
+<robot name="artemis">
+
+ <link name="body">
+      <visual name="rover">
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="BRIDGET ROVER COMPLETE STL.stl.osgb" scale="0.001 0.001 0.001"/>
+        </geometry>
+        <material name="grey_hell"/>
+      </visual>
+      <collision name="collision_platform_back">
+        <origin xyz="-0.527559 0 -0.12002" rpy="0 0 0"/>
+        <geometry>
+          <box size="0.134879 0.255042 0.002"/>
+        </geometry>
+      </collision>
+ </link>
+ <material name="grey_hell">
+   <color rgba="0.352842 0.430577 0.379458 1.0"/>
+ </material>
+</robot>
